@@ -1,10 +1,11 @@
 # EZ-FormAPI
-### FormAPI for ElementZero written in JavaScript
+- FormAPI for ElementZero written in JavaScript
 
 <hr>
 
-### API:
-#### NormalForm:
+## API:
+###  NormalForm:
+
 - Example:
 ```
 import { send } from "ez:formui";
@@ -19,3 +20,10 @@ Form
 
     send(player, Form.form, callback
 ```
+### CustomForm:
+
+- ...
+
+### ModalForm:
+
+- ...
