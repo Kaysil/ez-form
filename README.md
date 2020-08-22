@@ -1,5 +1,5 @@
 # EZ-FormAPI
-- FormAPI for ElementZero written in JavaScript
+FormAPI for ElementZero written in JavaScript
 
 <hr>
 
