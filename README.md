@@ -18,7 +18,7 @@ Form
     .setContent("Content")
     .addButton("Close")
 
-    send(player, Form.form, callback
+    send(player, Form.form, callback)
 ```
 ### CustomForm:
 
