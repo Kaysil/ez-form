@@ -1,6 +1,8 @@
 # EZ-FormAPI
 ### FormAPI for ElementZero written in JavaScript
+
 <hr>
+
 ### API:
 #### NormalForm:
 - Example:
