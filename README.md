@@ -9,7 +9,7 @@ FormAPI for ElementZero written in JavaScript
 - Example:
 ```
 import { send } from "ez:formui";
-import { NormalForm } from "path/to/NormalForm.js";
+import { NormalForm } from "path/to/index.js";
 
 var Form = new NormalForm()
 
