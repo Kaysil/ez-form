@@ -1,27 +1,27 @@
 class NormalForm {
-    constructor() {
+    constructor(form) {
         this.form = {
-            type: "form",
-            buttons: []
-        }
-    }
+			type: "form",
+			buttons: []
+		};
+    };
 
     setTitle(title) {
-        this.form.title = title
-        return this
-    }
+        this.form.title = title;
+        return this;
+    };
 
     setContent(content) {
-        this.form.content = content
-        return this
-    }
+        this.form.content = content;
+        return this;
+    };
 
     addButton(text) {
         this.form.buttons.push({
             text: text
-        })
-        return this
-    }
+        });
+        return this;
+    };
     
     addButtonWithImage(text, type, data) {
         this.form.buttons.push({
@@ -30,14 +30,14 @@ class NormalForm {
                 type: type,
                 data: data
             }]
-        })
-        return this
-    }
+        });
+        return this;
+    };
     
     deleteButton(id) {
-        delete this.form.buttons[id]
-        return this
-    }
-}
+        delete this.form.buttons[id];
+        return this;
+    };
+};
 
 export { NormalForm }
