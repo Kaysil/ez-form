@@ -1,3 +1,4 @@
-import { NormalForm } from "./src/NormalForm";
+import { NormalForm } from "./src/NormalForm.js";
+import { CustomForm } from "./src/CustomForm.js";
 
-export { NormalForm }
+export { NormalForm, CustomForm }
