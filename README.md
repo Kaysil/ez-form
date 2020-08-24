@@ -20,6 +20,14 @@ Form
 
     send(player, Form.form, callback)
 ```
+- Method:
+    - setTitle(title: string)
+    - setContent(content: string)
+    - addButton(text: string)
+    - addButtonWithImage(text: string, type: string, data: string)
+        - type: path/url
+        - data: path/url
+    - deleteButton(id: number)
 ### CustomForm:
 
 - ...
